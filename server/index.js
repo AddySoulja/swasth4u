@@ -1,8 +1,8 @@
 import path from "path";
 import express from "express";
 import dotenv from "dotenv";
-if (process.env.NODE_ENV === "development") {
-  dotenv.config();
+if (process.env.NODE_ENV !== "production") {
+  dotenv.config({ path: __dirname + "/.env" });
 }
 import cookieParser from "cookie-parser";
 import connectDatabase from "./database/index.js";
@@ -24,10 +24,10 @@ app.use("/api/users", userRoutes);
 
 if (process.env.NODE_ENV === "production") {
   const __dirname = path.resolve();
-  app.use(express.static(path.join(__dirname, "/client/public")));
+  app.use(express.static(path.join(__dirname, "../client", "build")));
 
-  app.get("*", (req, res) =>
-    res.sendFile(path.resolve(__dirname, "client", "public", "index.html"))
+  app.get("/*", (req, res) =>
+    res.sendFile(path.join(__dirname, "../client", "build", "index.html"))
   );
 } else {
   app.get("/", (req, res) => {

@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8c0e63c9.css",
+    "main.js": "/static/js/main.0e8f3fbe.js",
+    "static/media/heroMainImg.png": "/static/media/heroMainImg.068abf2e8e7181a08e90.png",
+    "static/media/hero2leftImg.png": "/static/media/hero2leftImg.721aa2dbb68f8d13249e.png",
+    "static/media/qm2.png": "/static/media/qm2.e8c8301a9b24f7c3dd3d.png",
+    "static/media/qm7.png": "/static/media/qm7.ac37aa3387a6f3a93213.png",
+    "static/media/qm5.png": "/static/media/qm5.ff3229356dcd6c01b398.png",
+    "static/media/swasthCard.png": "/static/media/swasthCard.0c28dbba99f25e050425.png",
+    "static/media/qm6.png": "/static/media/qm6.b7c8c971c0b38f4aa4c5.png",
+    "static/media/qm4.png": "/static/media/qm4.47a05156882517ad9e78.png",
+    "static/media/qm1.png": "/static/media/qm1.2f12d40c6e06bf77353b.png",
+    "static/media/qm3.png": "/static/media/qm3.ea7c913a933b0cebe8a4.png",
+    "static/media/qm8.png": "/static/media/qm8.2393a9c5f2d8534d5108.png",
+    "static/media/hero2leftcards.png": "/static/media/hero2leftcards.10f291ce41eadc8706b2.png",
+    "static/media/cards.png": "/static/media/cards.fbdfaa17cced9c6c5481.png",
+    "static/media/hero2leftcurves.png": "/static/media/hero2leftcurves.13d4d6ac7bfee877a3e3.png",
+    "static/media/swasthLogo.png": "/static/media/swasthLogo.b54825c29b00ca0af0c7.png",
+    "index.html": "/index.html",
+    "main.8c0e63c9.css.map": "/static/css/main.8c0e63c9.css.map",
+    "main.0e8f3fbe.js.map": "/static/js/main.0e8f3fbe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c0e63c9.css",
+    "static/js/main.0e8f3fbe.js"
+  ]
+}
