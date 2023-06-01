@@ -1,7 +1,9 @@
 import path from "path";
 import express from "express";
 import dotenv from "dotenv";
-dotenv.config();
+if (process.env.NODE_ENV === "development") {
+  dotenv.config();
+}
 import cookieParser from "cookie-parser";
 import connectDatabase from "./database/index.js";
 import userRoutes from "./RootRouter/index.js";
